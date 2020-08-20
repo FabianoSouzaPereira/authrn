@@ -20,7 +20,7 @@ disponíveis de forma nativa, por exemplo, no Node.js podemos utilizar os ES Mod
 Podemos transpilar nosso código para que o mesmo seja lido por todas versões de browsers, assim como fazemos com 
 o Babel em aplicações totalmente JavaScript.
 
-JWT feito com a APPI JavaScript axios "^0.19.2".
+#### JWT feito com a APPI JavaScript axios "^0.19.2"
 
 #### ECMAScript 6
 Esta aplicação foi criada usando os recursos mais novos de React Native, sito como exemplo os Hucks que são funções que permitem usar o estado e 
@@ -40,11 +40,49 @@ diante.
 
 #### Requests
 
-Parece haver uma diferença entre o a configuração do 'axios' e o request esperado pelo servidor da segware. Pois a requisição 'Post' funcionava corretamente
-com o padrão que adotei no inicio, contudo o mesmo modelo não se aplica a requisição tipo 'Get'. Tive que alterar o modelo da requisição para funcionar. 
-Digamos que tive que fazer uma abordagem mais direta para funcionar. As requisições tipo 'Post' passam pelo contexto geral antes de retornarem o conteúdo 
-mas o Get que fez o fetch dos dados teve que ser passado diretamente para a classe chamadora sem passar pelo contexto;
+Parece haver uma diferença entre o a configuração do **axios** e o request esperado pelo servidor da segware. Pois a requisição **Post** funcionava corretamente
+com o padrão que adotei no inicio, contudo o mesmo modelo não se aplica a requisição tipo **Get**. Tive que alterar o modelo da requisição para funcionar. 
+Digamos que tive que fazer uma abordagem mais direta para funcionar. As requisições tipo **Post** passam pelo contexto geral antes de retornarem o conteúdo 
+mas o Get que fez o fetch dos dados teve que ser passado diretamente para a classe chamadora sem passar pelo contexto.
 
+
+#### Etapas não realizadas 
+
+ - Incluir testes unitários e de integração;
+
+A etapa de testes e integração, não foi realizada pois em virtude de muitos contatempos não foi possível entrar no merito dessas questões.
+Contudo fica o conhecimento adquirido som a criação do App.
+
+
+## Respostas ao Questionário
+
+    1. Qual sua experiência com a linguagem JavaScript? Por favor, nomeie o principal projeto o qual você utilizou
+    esta linguagem,os principais frameworks envolvidos e a arquitetura utilizada.
+   
+    Projeto em site em PHP de https://celulas.fabianospdev.com.br  uso de javascript, ajax ,jquery, bootstrap, html5.
+    
+    2. Você possui experiência em alguma outra linguagem para back-end?
+    PHP, Delphi7,Delphi-XE8, java, javaEE.
+    
+    3. Qual a sua experiência com tecnologias front-end como AngularJS e ReactJS?
+       Tenho contato com Angular com Ionic para dispositivos moveis.
+       
+    4. Qual sua experiência em virtualização de ambientes, exemplo: Docker?
+    Uso virtualização no meu ambiente particular, com OS virtualizado com VirtualBox, onde
+    uso sistemas varios OS para testar meus projetos. Não utiliso a virtualização por container
+    como o Docker faz. Contudo acredito que vou começar a usar agora.
+   
+    5. Quais foram seus cargos nos times que você contribuiu (considerando os seus últimos 
+    projetos/trabalhos que você trabalhou)? Qual era o tamanho destes times?
+   
+    Sempre trabalhei como freelancer. Tenho meus parceiros que possso cita-los.  VS systens que é uma 
+    empresa de são josé que faz hardware e software para aplicações em automação. Cria também soluções
+    para a área de segurança. Tenho dois aplicativos nessa área de segurança postados no Google Play. 
+    O https://play.google.com/store/apps/details?id=br.com.help24hs que é um App botão de pânico para
+    o celular Android com GPS integrado, conextado a empresa de segurança, que abre uma ocorrencia na
+    tela do operador, tem também https://play.google.com/store/apps/details?id=br.com.chegadaassistida
+    que é um App para auxilho do cliente com acesso as cameras do mesmo; também vinclado ao operador da
+    empresa de segurança. 
 
 
 ###### Tenho conhecimentos em :
