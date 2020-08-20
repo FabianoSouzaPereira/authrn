@@ -6,7 +6,8 @@ Com certeza o desenvolvimento com typescript a primeira vista foi de cair a prod
 tipajem estática faria um projeto mais acertado, fiz uso do typescript que até então estava no no papel. Só o estudava mas nunca usava em projetos reais.
 Está é a minha primeira aplicação com React Native e Typescript.
 
-React Native "react-native": "0.63.2"; 
+#### React Native "react-native": "0.63.2" 
+
 
 #### Typescript "typescript": "^3.8.3"
 TypeScript traz a robustez de uma tipagem estática para aplicações JavaScript, o que torna o projeto muito mais escalável, conciso e com a 
@@ -37,6 +38,7 @@ Em alguns casos tive que voltar a usar o tipo any que nos traz devolta ao javasc
 diante. 
 
 #### Requests
+
 Parece haver uma diferença entre o a configuração do axios e o request esperado pelo servidor da segware. Pois a requisição Post funcionava corretamente
 com o padrão que adotei no inicio, contudo o mesmo modelo não se aplica a requisição tipo GET. Tive que alterar o modelo da requisição para funcionar. 
 Digamos que tive que fazer uma abordagem mais direta para funcionar. As requisições tipo Post passam pelo contexto geral antes de retornarem o conteúdo 
