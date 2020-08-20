@@ -76,13 +76,16 @@ Contudo fica o conhecimento adquirido som a criação do App.
     projetos/trabalhos que você trabalhou)? Qual era o tamanho destes times?
    
     Sempre trabalhei como freelancer. Tenho meus parceiros que possso cita-los.  VS systens que é uma 
-    empresa de são josé que faz hardware e software para aplicações em automação. Cria também soluções
-    para a área de segurança. Tenho dois aplicativos nessa área de segurança postados no Google Play. 
+    empresa de são josé que faz hardware e software para aplicações em automação. 
+    Cria também soluções para a área de segurança. Tenho dois aplicativos nessa área de segurança 
+    postados no Google Play. 
+    
     O https://play.google.com/store/apps/details?id=br.com.help24hs que é um App botão de pânico para
-    o celular Android com GPS integrado, conextado a empresa de segurança, que abre uma ocorrencia na
+    o celular Android com GPS integrado, conectado a empresa de segurança, que abre uma ocorrência na
     tela do operador, tem também https://play.google.com/store/apps/details?id=br.com.chegadaassistida
-    que é um App para auxilho do cliente com acesso as cameras do mesmo; também vinclado ao operador da
+    que é um App para auxilho do cliente com acesso as cameras do mesmo; também vinculado ao operador da
     empresa de segurança. 
+    
 
 
 ###### Tenho conhecimentos em :
