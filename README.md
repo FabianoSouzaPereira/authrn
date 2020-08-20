@@ -10,6 +10,7 @@ Está é a minha primeira aplicação com React Native e Typescript.
 
 
 #### Typescript "typescript": "^3.8.3"
+
 TypeScript traz a robustez de uma tipagem estática para aplicações JavaScript, o que torna o projeto muito mais escalável, conciso e com a 
 possibilidade de identificar bugs ainda em 
 tempo de compilação.
@@ -22,9 +23,9 @@ o Babel em aplicações totalmente JavaScript.
 JWT feito com a APPI JavaScript axios "^0.19.2".
 
 #### ECMAScript 6
- Esta aplicação foi criada usando os recursos mais novos de React Native, sito como exemplo os Hucks que são funções que permitem usar o estado e 
- os métodos do ciclo de vida de um componente 
- de classe em um componente funcional.disponíveis desde a versão 16.7.0-alpha e foram liberados também no React Native no release da versão 0.59.
+Esta aplicação foi criada usando os recursos mais novos de React Native, sito como exemplo os Hucks que são funções que permitem usar o estado e 
+os métodos do ciclo de vida de um componente 
+de classe em um componente funcional.disponíveis desde a versão 16.7.0-alpha e foram liberados também no React Native no release da versão 0.59.
 
 ## Problemas na execução do projeto:
 
@@ -39,9 +40,9 @@ diante.
 
 #### Requests
 
-Parece haver uma diferença entre o a configuração do axios e o request esperado pelo servidor da segware. Pois a requisição Post funcionava corretamente
-com o padrão que adotei no inicio, contudo o mesmo modelo não se aplica a requisição tipo GET. Tive que alterar o modelo da requisição para funcionar. 
-Digamos que tive que fazer uma abordagem mais direta para funcionar. As requisições tipo Post passam pelo contexto geral antes de retornarem o conteúdo 
+Parece haver uma diferença entre o a configuração do 'axios' e o request esperado pelo servidor da segware. Pois a requisição 'Post' funcionava corretamente
+com o padrão que adotei no inicio, contudo o mesmo modelo não se aplica a requisição tipo 'Get'. Tive que alterar o modelo da requisição para funcionar. 
+Digamos que tive que fazer uma abordagem mais direta para funcionar. As requisições tipo 'Post' passam pelo contexto geral antes de retornarem o conteúdo 
 mas o Get que fez o fetch dos dados teve que ser passado diretamente para a classe chamadora sem passar pelo contexto;
 
 
